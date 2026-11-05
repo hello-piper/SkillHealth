@@ -18,7 +18,7 @@ SkillHealth is a DeepSeek Harness (DSH) plugin that records skill invocations an
 ## Install
 
 ```bash
-git clone https://github.com/hello-piper/dsh-skillhealth.git
+git clone https://github.com/hello-piper/SkillHealth.git
 ```
 
 Install the cloned directory as a DSH bundle:
@@ -189,7 +189,7 @@ ignore_days = 14
 ## Tests
 
 ```bash
-cd dsh-skillhealth
+cd SkillHealth
 npm test
 ```
 

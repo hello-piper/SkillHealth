@@ -18,7 +18,7 @@ SkillHealth 是一个 DeepSeek Harness（DSH）插件：采集技能调用，回
 ## 安装
 
 ```bash
-git clone https://github.com/hello-piper/dsh-skillhealth.git
+git clone https://github.com/hello-piper/SkillHealth.git
 ```
 
 在 DSH 中把这个目录作为 bundle 安装：
@@ -189,7 +189,7 @@ ignore_days = 14
 ## 测试
 
 ```bash
-cd dsh-skillhealth
+cd SkillHealth
 npm test
 ```
 
