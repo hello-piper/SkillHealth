@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "SkillHealth Usage Statistics",
+    "description": "Collects skill invocation events, rolls them up by day, skill, and host, diagnoses library health, and shows restrained tidy-up reminders."
+  }
+}

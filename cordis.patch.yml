@@ -1,0 +1,9 @@
+- insert:
+    - id: skillhealth
+      name: 'dsh-skillhealth'
+      config:
+        root: "~/.agents/_skill-usage-stats"
+        notify:
+          terminal: true
+          system: true
+          banner: true

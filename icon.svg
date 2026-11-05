@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="SkillTrace">
+  <defs>
+    <linearGradient id="sts-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2f6df6"/>
+      <stop offset="1" stop-color="#1450c8"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="url(#sts-bg)"/>
+  <rect x="14" y="34" width="7" height="16" rx="2.5" fill="#cfe0ff"/>
+  <rect x="25" y="26" width="7" height="24" rx="2.5" fill="#eaf1ff"/>
+  <rect x="36" y="18" width="7" height="32" rx="2.5" fill="#ffffff"/>
+  <path d="M46 24.5l3.2 3.2 6.3-6.3" fill="none" stroke="#8ef0c0" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="49.5" cy="46.5" r="5.2" fill="none" stroke="#8ef0c0" stroke-width="2.4"/>
+  <path d="M53.4 50.4l3.2 3.2" stroke="#8ef0c0" stroke-width="2.6" stroke-linecap="round"/>
+</svg>

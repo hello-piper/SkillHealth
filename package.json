@@ -1,0 +1,57 @@
+{
+  "name": "dsh-skillhealth",
+  "version": "1.2.0",
+  "type": "module",
+  "description": "SkillHealth: cross-host skill usage statistics, health diagnostics, and default-load control for DeepSeek Harness.",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "bin/*.mjs",
+    "src/**/*.mjs",
+    "README.md",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.zh.md",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  },
+  "license": "Apache-2.0",
+  "author": "hello-piper",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hello-piper/dsh-skillhealth.git"
+  },
+  "homepage": "https://github.com/hello-piper/dsh-skillhealth#readme",
+  "bugs": {
+    "url": "https://github.com/hello-piper/dsh-skillhealth/issues"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "skills",
+    "observability",
+    "sqlite"
+  ]
+}
