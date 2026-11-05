@@ -52,6 +52,8 @@
     "deepseek-harness",
     "skills",
     "observability",
-    "sqlite"
+    "sqlite",
+    "dsh-plugin",
+    "claude-code"
   ]
 }
