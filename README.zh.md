@@ -1,5 +1,7 @@
 # SkillHealth
 
+[![dsh-plugin](https://img.shields.io/badge/topic-dsh--plugin-blue)](https://github.com/topics/dsh-plugin)
+
 [English](README.md) | **中文**
 
 SkillHealth 是一个 DeepSeek Harness（DSH）插件：采集技能调用，回答三个问题——技能到底有没有被用、用得好不好、技能库该不该整理。

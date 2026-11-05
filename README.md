@@ -1,5 +1,7 @@
 # SkillHealth
 
+[![dsh-plugin](https://img.shields.io/badge/topic-dsh--plugin-blue)](https://github.com/topics/dsh-plugin)
+
 **English** | [中文](README.zh.md)
 
 SkillHealth is a DeepSeek Harness (DSH) plugin that records skill invocations and answers three questions: is a skill actually used, how well does it perform, and should the library be tidied up?
